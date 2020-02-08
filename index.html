@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Card</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        
+
+        <div class="card bg-light">
+            <div class="card-head text-center"><h2>Task List</h2><hr></div>
+            <div class="card-body">
+                <h2>Create Task</h2>
+               <form id="add-task">
+                   <input name="task" type="text" placeholder="Enter Task Name" class="form-control" id="task">
+                   <button class="btn btn-success mt-2" type="submit">Add Task</button>
+               </form>
+               <hr>
+               <hr>
+               <h2>Task Filter</h2>
+               <hr>
+               <hr>
+               <input type="text" placeholder="Enter anythink" class="form-control" id="filter">
+
+               <ul class="collection">
+                   <!-- <li>sfdasdfsadf<a href="#" class="delete-item text-danger"><i class="fa fa-trash"></i></a></li> -->
+               </ul>
+               <a href="#" class="clear-task btn btn-success ">Clear Task</a>
+            </div>
+        </div>
+
+    </div>
+<script src="main.js"></script>
+</body>
+
+</html>
